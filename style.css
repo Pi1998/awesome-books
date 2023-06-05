@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title-input {
+    margin-bottom: 3%;
+}
+
+#author-input {
+    margin-bottom: 3%;
+}

@@ -21,3 +21,20 @@ function displayBooks() {
     booksList.appendChild(bookDiv);
   });
 }
+
+// add a new book to the collection
+function addBook(event) {
+  event.preventDefault();
+  const titleInput = document.getElementById('title-input');
+  const authorInput = document.getElementById('author-input');
+  const newBook = {
+    title: titleInput.value,
+    author: authorInput.value,
+  };
+  books.push(newBook);
+  localStorage.setItem('books', JSON.stringify(books));
+  displayBooks();
+  // Reset input fields
+  titleInput.value = '';
+  authorInput.value = '';
+}

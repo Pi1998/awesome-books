@@ -9,13 +9,15 @@ if (storedBooks) {
 }
 
 // display books in the collection
-
-
-// add a new book to the collection
-
-
-//  remove a book from the collection
-
-// Event listener for form submission
-
-
+function displayBooks() {
+  const booksList = document.getElementById('books-list');
+  booksList.innerHTML = '';
+  books.forEach((book, index) => {
+    const bookDiv = document.createElement('div');
+    bookDiv.innerHTML = `<div>${book.title}</div>
+                        <div>${book.author}</div>
+                         <button onclick="removeBook(${index})">Remove</button>
+                         <hr>`;
+    booksList.appendChild(bookDiv);
+  });
+}

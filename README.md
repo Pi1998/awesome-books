@@ -113,6 +113,11 @@ sh
 - GitHub: [@Pi1998](https://github.com/Pi1998)
 - LinkedIn: [Shinn Thant Swam Ye](https://www.linkedin.com/in/shinn-thant-swam-ye-617a66253/)
   
+👤 **Chongtham Ruby Devi**
+
+- GitHub: [@githubhandle](https://github.com/rubydevi)
+- Twitter: [@twitterhandle](https://twitter.com/ariesabyss)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chongtham-bhoomika/)
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

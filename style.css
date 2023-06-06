@@ -15,6 +15,13 @@ hr {
   width: 13%;
 }
 
+.table {
+  display: table;
+  width: 70%;
+  border-collapse: collapse;
+  border: 2px solid;
+}
+
 #title-input {
   margin-bottom: 3%;
 }

@@ -12,6 +12,7 @@ if (storedBooks) {
 // display books in the collection
 function displayBooks() {
   const booksList = document.getElementById('books-list');
+  booksList.classList.add('table');
   booksList.innerHTML = '';
   books.forEach((book, index) => {
     const bookDiv = document.createElement('div');

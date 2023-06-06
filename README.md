@@ -137,7 +137,7 @@ sh
 
 Contributions, issues, and feature requests are welcome!
 
-- [Issues](https://github.com/Pi1998/awesome-books)
+- [Issues](../../issues/)
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

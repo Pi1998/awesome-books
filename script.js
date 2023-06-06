@@ -14,6 +14,10 @@ class AwesomeBooks {
     }
   }
 
+  saveBooks() {
+    localStorage.setItem('books', JSON.stringify(this.books));
+  }
+
   displayBooks() {
     const booksList = document.getElementById('books-list');
     booksList.classList.add('table');
@@ -28,6 +32,24 @@ class AwesomeBooks {
                           `;
       booksList.appendChild(bookDiv);
     });
+  }
+
+  addBook(event) {
+    event.preventDefault();
+
+    const titleInput = document.getElementById('title-input');
+    const authorInput = document.getElementById('author-input');
+    const newBook = {
+      title: titleInput.value,
+      author: authorInput.value,
+    };
+
+    this.books.push(newBook);
+    this.saveBooks();
+    this.displayBooks();
+
+    titleInput.value = '';
+    authorInput.value = '';
   }
 }
 // Retrieve books from localStorage

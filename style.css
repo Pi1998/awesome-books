@@ -39,6 +39,22 @@ hr {
   text-align: right;
 }
 
+button {
+  padding: 5px 10px;
+  /* background-color: #f44336; */
+  background-color: #0400ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 4px 0px rgb(0 0 0);
+}
+
+.form-content {  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 #title-input {
   margin-bottom: 3%;
 }

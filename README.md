@@ -115,9 +115,9 @@ sh
   
 👤 **Chongtham Ruby Devi**
 
-- GitHub: [@githubhandle](https://github.com/rubydevi)
-- Twitter: [@twitterhandle](https://twitter.com/ariesabyss)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chongtham-bhoomika/)
+- GitHub: [@rubydevi](https://github.com/rubydevi)
+- Twitter: [@ariesabyss](https://twitter.com/ariesabyss)
+- LinkedIn: [Chongtham Ruby Devi](https://www.linkedin.com/in/chongtham-bhoomika/)
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

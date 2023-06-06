@@ -108,7 +108,7 @@ sh
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Shinn Thant Swam Ye
+👤 **Shinn Thant Swam Ye**
 
 - GitHub: [@Pi1998](https://github.com/Pi1998)
 - LinkedIn: [Shinn Thant Swam Ye](https://www.linkedin.com/in/shinn-thant-swam-ye-617a66253/)

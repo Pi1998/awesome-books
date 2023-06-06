@@ -62,3 +62,9 @@ button {
 #author-input {
   margin-bottom: 3%;
 }
+
+.form-content input {
+  margin: 0;
+  padding: 6px;
+  border: 2px solid #000;
+}

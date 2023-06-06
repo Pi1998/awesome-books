@@ -1,4 +1,19 @@
 /* eslint-disable no-unused-vars */
+class AwesomeBooks {
+  constructor() {
+    this.books = [];
+    this.loadBooks();
+  }
+
+  // Check stored books in localStorage
+  loadBooks() {
+    const storedBooks = localStorage.getItem('books');
+    if (storedBooks) {
+      // If true, parse the JSON string into an array
+      this.books = JSON.parse(storedBooks);
+    }
+  }
+}
 // Retrieve books from localStorage
 let books = [];
 

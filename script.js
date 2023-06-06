@@ -13,6 +13,22 @@ class AwesomeBooks {
       this.books = JSON.parse(storedBooks);
     }
   }
+
+  displayBooks() {
+    const booksList = document.getElementById('books-list');
+    booksList.classList.add('table');
+    booksList.innerHTML = '';
+    this.books.forEach((book, index) => {
+      const bookDiv = document.createElement('div');
+      bookDiv.classList.add('table-row');
+      bookDiv.innerHTML = `<div class="table-cell">"${book.title}" by ${book.author}</div>
+                            <div class="table-cell">
+                              <button class="button-cell" onclick="removeBook(${index})">Remove</button>
+                            </div>
+                          `;
+      booksList.appendChild(bookDiv);
+    });
+  }
 }
 // Retrieve books from localStorage
 let books = [];
